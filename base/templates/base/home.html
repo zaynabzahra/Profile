@@ -1,0 +1,59 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block title %} Home {% endblock %}
+
+
+{% block content %}
+
+<body>
+
+
+  <div class="container title">
+
+    <div class="row">
+      <div class="col">
+        <p id="welcome">
+          <span>Hello.</span> 
+          <span>My Name is Zaynab Zahra.
+          <span>Welcome to My Profile.</span> 
+        </p>
+      </div>
+
+      <div class="col-md-auto">
+        <p id="profile">
+          <img class="rounded-circle" src="{% static '/images/profile.jpg'%}" alt="profile image" width=230 height="205" >
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="container" id="cards">
+
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">About Me</h5>
+          <p class="card-text">
+            I am a second year student from Scotland and I am currently studying at the University of St Andrews. I am pursuing a degree in 
+            Msc Computer Science.  
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Interests</h5>
+          <p class="card-text">I have 2 years of programming experience particularly in Java, and I am also learning how to program in Python. 
+            I am interested in software development and artificial intelligence.
+             </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+{% endblock %}

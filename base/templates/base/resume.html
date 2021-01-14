@@ -1,0 +1,70 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block title %} Resume {% endblock %}
+
+
+{% block content %}
+
+<body>
+
+    <div class="container title">
+        <h1>resume.</h1>
+    </div>
+
+    <div class="container" id="resume">
+        <div class="row row-resume">
+            <div class="col">
+                <h3>education</h3>
+                </br>
+                <h5>University of St Andrews</h5>
+                <h6>Msc Computer Science</h6>
+                </br>
+                <h5>Hutchesons' Grammer School</h5>
+                <h6>High School</h6>
+            </div>
+            <div class="col">
+                <h3>activities</h3>
+                </br>
+                <h5>Second Year Computer Science Class Representative</h5>
+                <h6>Elected to represent the views of the study body and enhance learning and teaching within the
+                    Computer Science school.
+                </h6>
+                </br>
+                <h5>Women’s Tennis IIX Team</h5>
+                <h6>Active member of Women’s Tennis C Team and played BUCS matches as a part of this team.
+                </h6>
+                </br>
+            </div>
+        </div>
+        <div class="row row-resume">
+            <div class="col">
+                <h3>experience</h3>
+                </br>
+                <h5>IEP (Industry Engagement Program)</h5>
+                <h6>Selected as a developer for an undergraduate program to create a novel interface for CereProc’s
+                    speech synthesis tool.</br>
+                    Worked with the CereProc team in Edinburgh to collect user requirements and plan development
+                    workflow.</h6>
+                </br>
+                <h5>NHS Education for Scotland (NES West Region)</h5>
+                <h6>Earned a two-week work experience program at NHS Education, during which I gained valuable
+                    experience in the Agile
+                    development process. By working on the Family Nurse Partnership project, I contributed to discovery
+                    sessions with stakeholder s
+                    and created User Stories from prior documentation and user experience sessions.</h6></br>
+
+            </div>
+            <div class="col">
+                <h3>skills/modules</h3>
+                <p>Object Oriented Programming (Java)</p>
+                <p>Programming Projects/with Data (XML/Json)</p>
+                <p>Foundations of Computation</p>
+                <p>The Internet and the Web (Javascript/Node.js)</p>
+                </br>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+{% endblock %}

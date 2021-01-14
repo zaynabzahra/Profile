@@ -1,0 +1,98 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block title %} Projects {% endblock %}
+
+
+{% block content %}
+
+<body>
+
+  <div class="container title">
+    <h1>projects.</h1>
+  </div> 
+
+   
+   <div class="py-5">
+    <div class="container">
+      <div class="row hidden-md-up">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://raw.githubusercontent.com/zaynabzahra/ChatApp/main/firebase-code/screenshot.PNG" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Chat App</h4>
+              <h6 class="card-subtitle text-muted">Chat App using Firebase Backend</h6>
+              <p class="card-text p-y-1">I created a chat application which allows multiple users to communicate. I used Firestore to hold the chat information.</p>
+              <a href="https://chat-app-c9cc2.web.app/" class="card-link">go to project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://raw.githubusercontent.com/zaynabzahra/ToDo/master/todo.png" width="300" height="150" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">To Do App</h4>
+              <h6 class="card-subtitle text-muted">To Do Application using Javascript and React</h6>
+              <p class="card-text p-y-1"> I implemented a ToDo list application which allows users to add, remove and complete items from their list.</p>
+              <a href="https://github.com/zaynabzahra/ToDo" class="card-link">go to project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://raw.githubusercontent.com/zaynabzahra/Hackathon2020/master/screenshot.PNG" width="300" height="150" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Hackathon 2020</h4>
+              <h6 class="card-subtitle text-muted">Endless runner game in Vanilla Javascript</h6>
+              <p class="card-text p-y-1">I participated in a Hackathon in which I created a runner game in Javascript. I won the Best Single Entry Prize for my 
+                project
+              </p>
+              <a href="https://github.com/zaynabzahra/Hackathon2020" class="card-link">go to project</a>
+            </div>
+          </div>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{% static '/images/output.PNG'%}" width="300" height="150" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Weather App</h4>
+              <h6 class="card-subtitle text-muted">Weather App using API</h6>
+              <p class="card-text p-y-1">I used the OpenWeather API to get live data and displayed it on a webpage using Javascript </p>
+              <a href="https://github.com/zaynabzahra/WeatherApp" class="card-link">go to project</a>
+            </div>
+          </div>
+        </div>
+
+        <!--
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-block">
+              <h4 class="card-title">Project</h4>
+              <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+              <p class="card-text p-y-1">Some quick example text to build on the card title .</p>
+              <a href="#" class="card-link">go to project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-block">
+              <h4 class="card-title">Project</h4>
+              <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+              <p class="card-text p-y-1">Some quick example text to build on the card title .</p>
+              <a href="#" class="card-link">go to project</a>
+            </div>
+          </div>
+        </div>
+
+        -->
+
+      </div>
+    </div>
+  </div>
+   
+
+</body>
+
+{% endblock %}
